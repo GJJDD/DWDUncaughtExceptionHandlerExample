@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		396D1EED1DE41BCD00E78CF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 396D1EEC1DE41BCD00E78CF4 /* main.m */; };
+		396D1EF01DE41BCD00E78CF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 396D1EEF1DE41BCD00E78CF4 /* AppDelegate.m */; };
+		396D1EF31DE41BCD00E78CF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 396D1EF21DE41BCD00E78CF4 /* ViewController.m */; };
+		396D1EF61DE41BCD00E78CF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 396D1EF41DE41BCD00E78CF4 /* Main.storyboard */; };
+		396D1EF81DE41BCD00E78CF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 396D1EF71DE41BCD00E78CF4 /* Assets.xcassets */; };
+		396D1EFB1DE41BCD00E78CF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 396D1EF91DE41BCD00E78CF4 /* LaunchScreen.storyboard */; };
+		396D1F061DE41BCD00E78CF4 /* DWDUncaughtExceptionHandlerExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 396D1F051DE41BCD00E78CF4 /* DWDUncaughtExceptionHandlerExampleTests.m */; };
+		396D1F111DE41BCD00E78CF4 /* DWDUncaughtExceptionHandlerExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 396D1F101DE41BCD00E78CF4 /* DWDUncaughtExceptionHandlerExampleUITests.m */; };
+		396D1F201DE41BEA00E78CF4 /* DWDUncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 396D1F1F1DE41BEA00E78CF4 /* DWDUncaughtExceptionHandler.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		396D1F021DE41BCD00E78CF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 396D1EE01DE41BCD00E78CF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 396D1EE71DE41BCD00E78CF4;
+			remoteInfo = DWDUncaughtExceptionHandlerExample;
+		};
+		396D1F0D1DE41BCD00E78CF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 396D1EE01DE41BCD00E78CF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 396D1EE71DE41BCD00E78CF4;
+			remoteInfo = DWDUncaughtExceptionHandlerExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		396D1EE81DE41BCD00E78CF4 /* DWDUncaughtExceptionHandlerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DWDUncaughtExceptionHandlerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		396D1EEC1DE41BCD00E78CF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		396D1EEE1DE41BCD00E78CF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		396D1EEF1DE41BCD00E78CF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		396D1EF11DE41BCD00E78CF4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		396D1EF21DE41BCD00E78CF4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		396D1EF51DE41BCD00E78CF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		396D1EF71DE41BCD00E78CF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		396D1EFA1DE41BCD00E78CF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		396D1EFC1DE41BCD00E78CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		396D1F011DE41BCD00E78CF4 /* DWDUncaughtExceptionHandlerExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DWDUncaughtExceptionHandlerExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		396D1F051DE41BCD00E78CF4 /* DWDUncaughtExceptionHandlerExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWDUncaughtExceptionHandlerExampleTests.m; sourceTree = "<group>"; };
+		396D1F071DE41BCD00E78CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		396D1F0C1DE41BCD00E78CF4 /* DWDUncaughtExceptionHandlerExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DWDUncaughtExceptionHandlerExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		396D1F101DE41BCD00E78CF4 /* DWDUncaughtExceptionHandlerExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWDUncaughtExceptionHandlerExampleUITests.m; sourceTree = "<group>"; };
+		396D1F121DE41BCD00E78CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		396D1F1E1DE41BEA00E78CF4 /* DWDUncaughtExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWDUncaughtExceptionHandler.h; sourceTree = "<group>"; };
+		396D1F1F1DE41BEA00E78CF4 /* DWDUncaughtExceptionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWDUncaughtExceptionHandler.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		396D1EE51DE41BCD00E78CF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396D1EFE1DE41BCD00E78CF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396D1F091DE41BCD00E78CF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		396D1EDF1DE41BCD00E78CF4 = {
+			isa = PBXGroup;
+			children = (
+				396D1EEA1DE41BCD00E78CF4 /* DWDUncaughtExceptionHandlerExample */,
+				396D1F041DE41BCD00E78CF4 /* DWDUncaughtExceptionHandlerExampleTests */,
+				396D1F0F1DE41BCD00E78CF4 /* DWDUncaughtExceptionHandlerExampleUITests */,
+				396D1EE91DE41BCD00E78CF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		396D1EE91DE41BCD00E78CF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				396D1EE81DE41BCD00E78CF4 /* DWDUncaughtExceptionHandlerExample.app */,
+				396D1F011DE41BCD00E78CF4 /* DWDUncaughtExceptionHandlerExampleTests.xctest */,
+				396D1F0C1DE41BCD00E78CF4 /* DWDUncaughtExceptionHandlerExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		396D1EEA1DE41BCD00E78CF4 /* DWDUncaughtExceptionHandlerExample */ = {
+			isa = PBXGroup;
+			children = (
+				396D1F1E1DE41BEA00E78CF4 /* DWDUncaughtExceptionHandler.h */,
+				396D1F1F1DE41BEA00E78CF4 /* DWDUncaughtExceptionHandler.m */,
+				396D1EEE1DE41BCD00E78CF4 /* AppDelegate.h */,
+				396D1EEF1DE41BCD00E78CF4 /* AppDelegate.m */,
+				396D1EF11DE41BCD00E78CF4 /* ViewController.h */,
+				396D1EF21DE41BCD00E78CF4 /* ViewController.m */,
+				396D1EF41DE41BCD00E78CF4 /* Main.storyboard */,
+				396D1EF71DE41BCD00E78CF4 /* Assets.xcassets */,
+				396D1EF91DE41BCD00E78CF4 /* LaunchScreen.storyboard */,
+				396D1EFC1DE41BCD00E78CF4 /* Info.plist */,
+				396D1EEB1DE41BCD00E78CF4 /* Supporting Files */,
+			);
+			path = DWDUncaughtExceptionHandlerExample;
+			sourceTree = "<group>";
+		};
+		396D1EEB1DE41BCD00E78CF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				396D1EEC1DE41BCD00E78CF4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		396D1F041DE41BCD00E78CF4 /* DWDUncaughtExceptionHandlerExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				396D1F051DE41BCD00E78CF4 /* DWDUncaughtExceptionHandlerExampleTests.m */,
+				396D1F071DE41BCD00E78CF4 /* Info.plist */,
+			);
+			path = DWDUncaughtExceptionHandlerExampleTests;
+			sourceTree = "<group>";
+		};
+		396D1F0F1DE41BCD00E78CF4 /* DWDUncaughtExceptionHandlerExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				396D1F101DE41BCD00E78CF4 /* DWDUncaughtExceptionHandlerExampleUITests.m */,
+				396D1F121DE41BCD00E78CF4 /* Info.plist */,
+			);
+			path = DWDUncaughtExceptionHandlerExampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		396D1EE71DE41BCD00E78CF4 /* DWDUncaughtExceptionHandlerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 396D1F151DE41BCD00E78CF4 /* Build configuration list for PBXNativeTarget "DWDUncaughtExceptionHandlerExample" */;
+			buildPhases = (
+				396D1EE41DE41BCD00E78CF4 /* Sources */,
+				396D1EE51DE41BCD00E78CF4 /* Frameworks */,
+				396D1EE61DE41BCD00E78CF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DWDUncaughtExceptionHandlerExample;
+			productName = DWDUncaughtExceptionHandlerExample;
+			productReference = 396D1EE81DE41BCD00E78CF4 /* DWDUncaughtExceptionHandlerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		396D1F001DE41BCD00E78CF4 /* DWDUncaughtExceptionHandlerExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 396D1F181DE41BCD00E78CF4 /* Build configuration list for PBXNativeTarget "DWDUncaughtExceptionHandlerExampleTests" */;
+			buildPhases = (
+				396D1EFD1DE41BCD00E78CF4 /* Sources */,
+				396D1EFE1DE41BCD00E78CF4 /* Frameworks */,
+				396D1EFF1DE41BCD00E78CF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				396D1F031DE41BCD00E78CF4 /* PBXTargetDependency */,
+			);
+			name = DWDUncaughtExceptionHandlerExampleTests;
+			productName = DWDUncaughtExceptionHandlerExampleTests;
+			productReference = 396D1F011DE41BCD00E78CF4 /* DWDUncaughtExceptionHandlerExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		396D1F0B1DE41BCD00E78CF4 /* DWDUncaughtExceptionHandlerExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 396D1F1B1DE41BCD00E78CF4 /* Build configuration list for PBXNativeTarget "DWDUncaughtExceptionHandlerExampleUITests" */;
+			buildPhases = (
+				396D1F081DE41BCD00E78CF4 /* Sources */,
+				396D1F091DE41BCD00E78CF4 /* Frameworks */,
+				396D1F0A1DE41BCD00E78CF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				396D1F0E1DE41BCD00E78CF4 /* PBXTargetDependency */,
+			);
+			name = DWDUncaughtExceptionHandlerExampleUITests;
+			productName = DWDUncaughtExceptionHandlerExampleUITests;
+			productReference = 396D1F0C1DE41BCD00E78CF4 /* DWDUncaughtExceptionHandlerExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		396D1EE01DE41BCD00E78CF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = dianwoda;
+				TargetAttributes = {
+					396D1EE71DE41BCD00E78CF4 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = TD22P5EE7X;
+						ProvisioningStyle = Automatic;
+					};
+					396D1F001DE41BCD00E78CF4 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = TD22P5EE7X;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 396D1EE71DE41BCD00E78CF4;
+					};
+					396D1F0B1DE41BCD00E78CF4 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = TD22P5EE7X;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 396D1EE71DE41BCD00E78CF4;
+					};
+				};
+			};
+			buildConfigurationList = 396D1EE31DE41BCD00E78CF4 /* Build configuration list for PBXProject "DWDUncaughtExceptionHandlerExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 396D1EDF1DE41BCD00E78CF4;
+			productRefGroup = 396D1EE91DE41BCD00E78CF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				396D1EE71DE41BCD00E78CF4 /* DWDUncaughtExceptionHandlerExample */,
+				396D1F001DE41BCD00E78CF4 /* DWDUncaughtExceptionHandlerExampleTests */,
+				396D1F0B1DE41BCD00E78CF4 /* DWDUncaughtExceptionHandlerExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		396D1EE61DE41BCD00E78CF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396D1EFB1DE41BCD00E78CF4 /* LaunchScreen.storyboard in Resources */,
+				396D1EF81DE41BCD00E78CF4 /* Assets.xcassets in Resources */,
+				396D1EF61DE41BCD00E78CF4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396D1EFF1DE41BCD00E78CF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396D1F0A1DE41BCD00E78CF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		396D1EE41DE41BCD00E78CF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396D1EF31DE41BCD00E78CF4 /* ViewController.m in Sources */,
+				396D1EF01DE41BCD00E78CF4 /* AppDelegate.m in Sources */,
+				396D1EED1DE41BCD00E78CF4 /* main.m in Sources */,
+				396D1F201DE41BEA00E78CF4 /* DWDUncaughtExceptionHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396D1EFD1DE41BCD00E78CF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396D1F061DE41BCD00E78CF4 /* DWDUncaughtExceptionHandlerExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396D1F081DE41BCD00E78CF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396D1F111DE41BCD00E78CF4 /* DWDUncaughtExceptionHandlerExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		396D1F031DE41BCD00E78CF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 396D1EE71DE41BCD00E78CF4 /* DWDUncaughtExceptionHandlerExample */;
+			targetProxy = 396D1F021DE41BCD00E78CF4 /* PBXContainerItemProxy */;
+		};
+		396D1F0E1DE41BCD00E78CF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 396D1EE71DE41BCD00E78CF4 /* DWDUncaughtExceptionHandlerExample */;
+			targetProxy = 396D1F0D1DE41BCD00E78CF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		396D1EF41DE41BCD00E78CF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				396D1EF51DE41BCD00E78CF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		396D1EF91DE41BCD00E78CF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				396D1EFA1DE41BCD00E78CF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		396D1F131DE41BCD00E78CF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		396D1F141DE41BCD00E78CF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		396D1F161DE41BCD00E78CF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TD22P5EE7X;
+				INFOPLIST_FILE = DWDUncaughtExceptionHandlerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dianwoda.DWDUncaughtExceptionHandlerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		396D1F171DE41BCD00E78CF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TD22P5EE7X;
+				INFOPLIST_FILE = DWDUncaughtExceptionHandlerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dianwoda.DWDUncaughtExceptionHandlerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		396D1F191DE41BCD00E78CF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TD22P5EE7X;
+				INFOPLIST_FILE = DWDUncaughtExceptionHandlerExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dianwoda.DWDUncaughtExceptionHandlerExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DWDUncaughtExceptionHandlerExample.app/DWDUncaughtExceptionHandlerExample";
+			};
+			name = Debug;
+		};
+		396D1F1A1DE41BCD00E78CF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TD22P5EE7X;
+				INFOPLIST_FILE = DWDUncaughtExceptionHandlerExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dianwoda.DWDUncaughtExceptionHandlerExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DWDUncaughtExceptionHandlerExample.app/DWDUncaughtExceptionHandlerExample";
+			};
+			name = Release;
+		};
+		396D1F1C1DE41BCD00E78CF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = TD22P5EE7X;
+				INFOPLIST_FILE = DWDUncaughtExceptionHandlerExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dianwoda.DWDUncaughtExceptionHandlerExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DWDUncaughtExceptionHandlerExample;
+			};
+			name = Debug;
+		};
+		396D1F1D1DE41BCD00E78CF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = TD22P5EE7X;
+				INFOPLIST_FILE = DWDUncaughtExceptionHandlerExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dianwoda.DWDUncaughtExceptionHandlerExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DWDUncaughtExceptionHandlerExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		396D1EE31DE41BCD00E78CF4 /* Build configuration list for PBXProject "DWDUncaughtExceptionHandlerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				396D1F131DE41BCD00E78CF4 /* Debug */,
+				396D1F141DE41BCD00E78CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		396D1F151DE41BCD00E78CF4 /* Build configuration list for PBXNativeTarget "DWDUncaughtExceptionHandlerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				396D1F161DE41BCD00E78CF4 /* Debug */,
+				396D1F171DE41BCD00E78CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		396D1F181DE41BCD00E78CF4 /* Build configuration list for PBXNativeTarget "DWDUncaughtExceptionHandlerExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				396D1F191DE41BCD00E78CF4 /* Debug */,
+				396D1F1A1DE41BCD00E78CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		396D1F1B1DE41BCD00E78CF4 /* Build configuration list for PBXNativeTarget "DWDUncaughtExceptionHandlerExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				396D1F1C1DE41BCD00E78CF4 /* Debug */,
+				396D1F1D1DE41BCD00E78CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 396D1EE01DE41BCD00E78CF4 /* Project object */;
+}
